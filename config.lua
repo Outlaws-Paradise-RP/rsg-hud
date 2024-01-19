@@ -8,12 +8,12 @@ Config.MinimumSpeed = 100 -- Going Over This Speed Will Cause Stress
 Config.TelegramCheck = 5000 -- amount of milliseconds to check your telegrams
 
 -- current setup: no minimap when onfoot
-Config.OnFootMinimap = false -- set to true/false to disable/enable minimap when on foot
-Config.OnFootCompass = false -- true = have the minimap set to a compass instead of off or normal minimap
+Config.OnFootMinimap = true -- set to true/false to disable/enable minimap when on foot
+Config.OnFootCompass = true -- true = have the minimap set to a compass instead of off or normal minimap
 
 -- current setup: Normal minimap when on mount
 Config.MounttMinimap = true -- set to false if you want to disable the minimap when on mount
-Config.MountCompass = false -- set to true if you want to have a compass instead of normal minimap while on a mount
+Config.MountCompass = true -- set to true if you want to have a compass instead of normal minimap while on a mount
 
 -- turn health damage on/off
 Config.DoHealthDamage = true
@@ -22,10 +22,10 @@ Config.DoHealthDamage = true
 Config.DoHealthDamageFx = false
 
 -- turn health damage sound on/off
-Config.DoHealthPainSound = true
+Config.DoHealthPainSound = false
 
 -- temp settings (only one setting)
-Config.TempFormat = 'celsius'
+Config.TempFormat = 'fahrenheit'
 --Config.TempFormat = 'fahrenheit'
 
 -- warmth add while wearing
